@@ -5,7 +5,6 @@
 
 body {
   font-family: "Cormorant", serif;
-  background-color: #dc98068b;
 }
 
 /* Heading*/
@@ -21,7 +20,7 @@ h1 {
   padding: 15px;
   color: #ededed;
   font-size: 2.7rem;
-  text-shadow: 8px 8px 5px #141414;
+  text-shadow: 7px 7px 4px #141414;
 }
 
 /* Image container */
@@ -73,8 +72,8 @@ img {
 
 .captions {
   font-family: "Montserrat", sans-serif;
-  background-color: #0000008b;
-  color: #b4bbb9;
+  background-color: #1c0a008b;
+  color: #bcc9c5;
   font-weight: 600;
   text-align: center;
   padding: 1rem;
@@ -86,7 +85,7 @@ img {
   clear: both;
   text-align: center;
   padding: 30px;
-  background-color: #000000e5;
+  background-color: #190900;
 }
 
 .previous,
@@ -96,8 +95,9 @@ img {
   border: none;
   border-radius: 5px;
   font-size: 1.2rem;
-  background-color: #e7e7e7;
+  background-color: #eeeeee;
   transition: 0.3s ease;
+  box-shadow: 0 0 0 2px #399388;
 }
 
 .previous {
@@ -112,8 +112,8 @@ img {
 .previous:hover,
 .next:hover {
   background-color: #ffffff;
-  color: #4c4c4c;
-  box-shadow: 0 0 10px #898989;
+  color: #190900;
+  box-shadow: 0 0 2px 5px #399388;
 }
 
 /* Footer */
